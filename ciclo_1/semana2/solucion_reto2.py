@@ -1,3 +1,4 @@
+from ast import Pass
 def cliente(informacion: dict)-> dict:
 
     # uso de variables.
@@ -45,6 +46,7 @@ def cliente(informacion: dict)-> dict:
 
 
 
+
 # Diccionario para realizar la prueba en la plataforma.
 '''
 informacion = {
@@ -55,4 +57,4 @@ informacion = {
 }
 '''
 # llamar la función para verificar el resultado
-#print(cliente(informacion))
+print(cliente( informacion ))
